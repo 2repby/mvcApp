@@ -1,0 +1,25 @@
+{
+    "name": "kda/mvcphp",
+    "description": "SurGU PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "kda",
+            "email": "2repby@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "framework",
+            "App\\": "app"
+        },
+        "files": [
+            "app/config.php",
+            "app/routes.php"
+        ]
+    }
+}
